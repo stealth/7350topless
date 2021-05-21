@@ -1,6 +1,8 @@
 80-update-htop-and-offload-tx
 =============================
 
+[![asciicast](https://asciinema.org/a/FQEhw8yQ63Q4Adw3HDNjliT5u.svg)](https://asciinema.org/a/FQEhw8yQ63Q4Adw3HDNjliT5u)
+
 [armbian](https://www.armbian.com) is a Debian based Linux distro
 for virtually every ARM dev board. As it is slim, easy to use and configure
 it is one of my favorite distros for my ARM-boards zoo.
