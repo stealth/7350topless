@@ -1,7 +1,7 @@
 80-update-htop-and-offload-tx
 =============================
 
-![armbian](https://www.armbian.com) is a Debian based Linux distro
+[armbian](https://www.armbian.com) is a Debian based Linux distro
 for virtually every ARM dev board. As it is slim, easy to use and configure
 it is one of my favorite distros for my ARM-boards zoo.
 
@@ -10,7 +10,7 @@ Yet, there is a LPE vulnerability in Armbian's *NetworkManager* dispatcher scrip
 
 The script goes like this:
 
-```script
+```bash
 #!/bin/bash
 #
 # adjust htop settings for all normal users and root
