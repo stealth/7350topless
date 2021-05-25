@@ -3,7 +3,7 @@
 
 [![asciicast](https://asciinema.org/a/FQEhw8yQ63Q4Adw3HDNjliT5u.svg)](https://asciinema.org/a/FQEhw8yQ63Q4Adw3HDNjliT5u)
 
-[armbian](https://www.armbian.com) is a Debian based Linux distro
+[Armbian](https://www.armbian.com) is a Debian based Linux distro
 for virtually every ARM dev board. As it is slim, easy to use and configure
 it is one of my favorite distros for my ARM-boards zoo.
 
@@ -96,4 +96,8 @@ of hours as most DHCP servers offer DHCP leases with ~6h of rebind time.
 There are some nifty details about the directory switch which you can enjoy by reading the
 exploit code. As the PoC potentially waits quite long, we will try to reduce CPU usage. In
 other circumstances, due to multi-core environments, spinning would be an option.
+
+Note that the exploit is generic and works on almost all *Armbian* installs.
+
+As a hotfix, you could remove the `80-update-htop-and-offload-tx` dispatcher script.
 
